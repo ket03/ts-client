@@ -32,7 +32,7 @@ You can download the pre-built `.exe` from [Releases](../../releases) or build f
 ### Project Structure
 
 ```
-ts_client/
+src/
 ├── client.c
 ├── .env
 ├── res/
@@ -60,7 +60,7 @@ gcc server.c -I./teamspeak_sdk/include -L./teamspeak_sdk/bin -lts3server -Wl,-rp
 
 ### Client Setup (Windows)
 
-Create `.env` file in `ts_client/` folder:
+Create `.env` file in `src/` folder:
 
 ```env
 IP=YOUR_SERVER_IP
@@ -71,7 +71,7 @@ PASSWORD=YOUR_SERVER_PASSWORD
 Compile the client (requires Visual Studio Build Tools):
 
 ```cmd
-cd ts_client
+cd src
 
 :: Compile resources
 rc res\resources.rc
@@ -105,4 +105,3 @@ cl /O2 /GL /MT /I"teamspeak_sdk\include" client.c res\resources.res /link /LTCG 
 
 - **Mute/Unmute** button — toggle microphone
 - Voice activation enabled by default
-
