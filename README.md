@@ -23,10 +23,6 @@ Lightweight voice communication solution built on proven technologies:
 
 Runs on any Windows device, including low-end machines and virtual machines.
 
-## Download
-
-You can download the pre-built `.exe` from [Releases](../../releases) or build from source.
-
 ## Build from Source
 
 ### Project Structure
