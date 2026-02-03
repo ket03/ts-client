@@ -1,0 +1,5 @@
+// Application icon
+1 ICON "app.ico"
+
+// Visual styles manifest
+1 24 "app.manifest"
